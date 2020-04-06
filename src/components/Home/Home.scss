@@ -1,0 +1,15 @@
+.home-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: initial;
+  flex-direction: column;
+  h1 {
+    font-weight: 700;
+    font-size: 3.5em;
+  }
+  .button {
+    background-color: black;
+    color: white;
+  }
+}
