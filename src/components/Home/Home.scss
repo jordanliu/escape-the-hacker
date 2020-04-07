@@ -3,13 +3,29 @@
   display: flex;
   align-items: center;
   justify-content: initial;
+  margin-top: 12rem;
   flex-direction: column;
   h1 {
     font-weight: 700;
+    margin-bottom: 0;
     font-size: 3.5em;
   }
-  .button {
+  button {
     background-color: black;
-    color: white;
+    height: 2.5em;
+    width: 5.5em;
+    border: none;
+  }
+  p {
+    margin-top: 0;
+    text-align: center;
+    width: 35%;
+  }
+  a {
+    text-decoration: none;
+    color: #00ff19;
+    &:hover {
+      color: white;
+    }
   }
 }

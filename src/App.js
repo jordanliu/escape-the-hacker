@@ -1,12 +1,14 @@
 import React from "react"
 import "./App.scss"
-import { Home } from "./components"
+import { MemoryRouter as Router, Route } from "react-router-dom"
+import { Home, Timer } from "./components"
 
-function App() {
+const App = (props) => {
   return (
-    <div>
-      <Home />
-    </div>
+    <Router>
+      <Route exact path="/" component={Home} />
+      <Route path="/start" component={Timer} />
+    </Router>
   )
 }
 
