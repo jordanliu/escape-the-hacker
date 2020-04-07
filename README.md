@@ -5,7 +5,6 @@
 Escape the Hacker
 </h1>
 
-
 Escape room game created to increase cyber awareness for CIT4020 (Computer Security) By Jordan Liu, Tarique Jemison, David Williams, Tia Thomas.
 
 ## 🚀 Quick start
@@ -16,13 +15,10 @@ Escape room game created to increase cyber awareness for CIT4020 (Computer Secur
 
     ```shell
     cd escape-the-hacker/
-    yarm install
+    yarn install
     yarn start
     ```
 
 1.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:3000`!
-
-
-
