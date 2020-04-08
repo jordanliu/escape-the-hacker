@@ -30,7 +30,7 @@ const Home = () => {
         the attack.
       </p>
       <button>
-        <Link to="/start">>START</Link>
+        <Link to="/level/1">>START</Link>
       </button>
     </div>
   )

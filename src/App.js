@@ -7,7 +7,7 @@ const App = (props) => {
   return (
     <Router>
       <Route exact path="/" component={Home} />
-      <Route path="/start" component={Timer} />
+      <Route path="/level" component={Timer} />
     </Router>
   )
 }

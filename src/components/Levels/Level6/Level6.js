@@ -1,12 +1,12 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-const Level1 = () => {
+const Level6 = () => {
   return (
     <div>
-      On Level1, on to the <Link to="/level/2">next</Link>
+      On Level6, on to the <Link to="/level/7">next</Link>
     </div>
   )
 }
 
-export default Level1
+export default Level6
