@@ -25,13 +25,13 @@ const Home = () => {
       <h1>{result}</h1>
       <p>
         You’re a CS incident response expert dealing with an ongoing attack, the
-        hacker is giving you clues how he got access to the system. You’re job
-        is to identify the method and implement the defensive strategy to stop
-        the attack.
+        hacker is giving you clues how he got access to the system. Your job is
+        to solve the hacker's riddles to stop the attack.
       </p>
       <button>
         <Link to="/level/1">>START</Link>
       </button>
+      <span>Time Limit: 10 minutes</span>
     </div>
   )
 }

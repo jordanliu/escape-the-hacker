@@ -21,8 +21,9 @@ const Level1 = () => {
       <form onSubmit={handleSubmit}>
         <input
           id="password"
-          type="text"
+          type="password"
           placeholder="Enter password"
+          autoComplete="off"
           onChange={(e) => setPassword(e.target.value)}
         />
       </form>
