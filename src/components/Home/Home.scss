@@ -14,7 +14,7 @@
   button {
     background-color: black;
     height: 2.5em;
-    width: 5.5em;
+    width: 6em;
     border: none;
   }
   p {
@@ -25,6 +25,7 @@
   a {
     text-decoration: none;
     color: #00ff19;
+    font-size: 1.2em;
     &:hover {
       color: white;
     }

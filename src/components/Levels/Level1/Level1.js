@@ -1,10 +1,31 @@
-import React from "react"
-import { Link } from "react-router-dom"
+import React, { useState } from "react"
+import { useHistory } from "react-router-dom"
+import "./Level1.scss"
 
 const Level1 = () => {
+  const history = useHistory()
+  const [password, setPassword] = useState()
+  let strongRegex = new RegExp(
+    "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})"
+  )
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if (strongRegex.test(password)) {
+      return history.push("/level/2")
+    }
+  }
+
   return (
-    <div>
-      On Level1, on to the <Link to="/level/2">next</Link>
+    <div className="level1-wrapper">
+      <form onSubmit={handleSubmit}>
+        <input
+          id="password"
+          type="text"
+          placeholder="Enter password"
+          onChange={(e) => setPassword(e.target.value)}
+        />
+      </form>
     </div>
   )
 }
