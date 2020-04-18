@@ -35,4 +35,17 @@
       color: white;
     }
   }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    a {
+      color: black;
+      border-bottom: 1px solid #aaa;
+    }
+  }
 }

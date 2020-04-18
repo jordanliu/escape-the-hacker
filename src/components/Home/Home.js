@@ -26,12 +26,18 @@ const Home = () => {
       <p>
         You’re a CS incident response expert dealing with an ongoing attack, the
         hacker is giving you clues how he got access to the system. Your job is
-        to solve the hacker's riddles to stop the attack.
+        to solve the hacker's puzzle to stop the attack.
       </p>
       <button>
         <Link to="/level/1">>START</Link>
       </button>
       <span>Time Limit: 10 minutes</span>
+
+      <span className="footer">
+        To promote cyberawareness, see{" "}
+        <a href="https://github.com/jordanliu/escape-the-hacker">source code</a>
+        .
+      </span>
     </div>
   )
 }
