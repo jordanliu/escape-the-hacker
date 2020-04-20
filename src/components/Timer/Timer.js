@@ -14,16 +14,6 @@ import {
   Level8,
 } from "../../components"
 import { useTimer } from "react-timer-hook"
-// const Win = lazy(() => import("../Win/Win"))
-// const Lose = lazy(() => import("../Lose/Lose"))
-// const Level1 = lazy(() => import("../Levels/Level1/Level1"))
-// const Level2 = lazy(() => import("../Levels/Level2/Level2"))
-// const Level3 = lazy(() => import("../Levels/Level3/Level3"))
-// const Level4 = lazy(() => import("../Levels/Level4/Level4"))
-// const Level5 = lazy(() => import("../Levels/Level5/Level5"))
-// const Level6 = lazy(() => import("../Levels/Level6/Level6"))
-// const Level7 = lazy(() => import("../Levels/Level7/Level7"))
-// const Level8 = lazy(() => import("../Levels/Level8/Level8"))
 
 const Timer = () => {
   const history = useHistory()

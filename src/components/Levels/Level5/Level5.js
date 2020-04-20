@@ -3,7 +3,7 @@ import React, { useRef } from "react"
 import qr from "./qr.png"
 import "./Level5.scss"
 
-const Level5 = () => {
+const Level5 = React.memo(() => {
   // const history = useHistory()
   // const [text, setText] = useState("")
   const inputRef = useRef()
@@ -19,6 +19,6 @@ const Level5 = () => {
       <input type="text" ref={inputRef} />
     </div>
   )
-}
+})
 
 export default Level5
