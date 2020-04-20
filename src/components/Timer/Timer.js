@@ -1,4 +1,4 @@
-import React, { useEffect, Suspense } from "react"
+import React, { useEffect } from "react"
 import "./Timer.scss"
 import { Switch, Route, useHistory, useLocation } from "react-router-dom"
 import {
@@ -58,18 +58,16 @@ const Timer = () => {
         </h1>
       </div>
       <Switch>
-        <Suspense fallback={<div>Loading...</div>}>
-          <Route exact path="/level/1" component={Level1} />
-          <Route exact path="/level/2" component={Level2} />
-          <Route exact path="/level/3" component={Level3} />
-          <Route exact path="/level/4" component={Level4} />
-          <Route exact path="/level/5" component={Level5} />
-          <Route exact path="/level/6" component={Level6} />
-          <Route exact path="/level/7" component={Level7} />
-          <Route exact path="/level/8" component={Level8} />
-          <Route exact path="/level/lose" component={Lose} />
-          <Route exact path="/level/win" component={Win} />
-        </Suspense>
+        <Route exact path="/level/1" component={Level1} />
+        <Route exact path="/level/2" component={Level2} />
+        <Route exact path="/level/3" component={Level3} />
+        <Route exact path="/level/4" component={Level4} />
+        <Route exact path="/level/5" component={Level5} />
+        <Route exact path="/level/6" component={Level6} />
+        <Route exact path="/level/7" component={Level7} />
+        <Route exact path="/level/8" component={Level8} />
+        <Route exact path="/level/lose" component={Lose} />
+        <Route exact path="/level/win" component={Win} />
       </Switch>
     </div>
   )
