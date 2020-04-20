@@ -1,0 +1,22 @@
+.lose-wrapper {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 200px;
+  flex-direction: column;
+  h1 {
+    height: 46px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    font-size: 3.5em;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    transition: 100ms ease-in;
+    &:hover {
+      border-bottom: 2px solid #00ff19;
+    }
+  }
+}
