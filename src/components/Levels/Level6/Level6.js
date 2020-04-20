@@ -1,10 +1,13 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
 const Level6 = () => {
+  const [state, setState] = useState()
+
+  console.log(state)
   return (
     <div>
-      On Level6, on to the <Link to="/level/7">next</Link>
+      <input type="text" onChange={(e) => setState(e.target.value)} />
     </div>
   )
 }

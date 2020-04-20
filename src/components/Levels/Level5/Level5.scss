@@ -1,0 +1,17 @@
+.level5-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+
+  input {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+}
