@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef } from "react"
-import { useHistory } from "react-router-dom"
+import React, { useRef } from "react"
+//import { useHistory } from "react-router-dom"
 import qr from "./qr.png"
 import "./Level5.scss"
 
 const Level5 = () => {
-  const history = useHistory()
+  // const history = useHistory()
   // const [text, setText] = useState("")
   const inputRef = useRef()
   // useEffect(() => {
