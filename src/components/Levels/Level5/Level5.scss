@@ -5,13 +5,11 @@
   -webkit-flex-direction: column;
   flex-direction: column;
 
-  input {
-    width: 500px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 1em;
+  img {
+    padding: 200px;
+  }
+  .hidden > a {
+    padding: 5px;
+    color: white;
   }
 }
