@@ -32,8 +32,8 @@ const Home = () => {
         <h1>{result}</h1>
         <p>
           You’re a CS incident response expert dealing with an ongoing attack,
-          the hacker is giving you clues how he got access to the system. Your
-          job is to solve the hacker's puzzle to stop the attack.
+          the hacker is giving you clues on how he got access to the system.
+          Your job is to solve the hacker's puzzle to stop the attack.
         </p>
         <button>
           <Link to="/level/1">>START</Link>
