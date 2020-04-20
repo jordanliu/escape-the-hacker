@@ -24,7 +24,7 @@
   p {
     margin-top: 0;
     text-align: center;
-    width: 35%;
+    width: 550px;
     margin-bottom: 15px;
   }
   a {
@@ -47,5 +47,28 @@
       color: black;
       border-bottom: 1px solid #aaa;
     }
+  }
+}
+
+.mobile {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 300px;
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  div.home-wrapper {
+    display: none;
+  }
+  div.mobile {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  div.mobile {
+    display: none;
   }
 }

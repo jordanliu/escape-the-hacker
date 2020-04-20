@@ -21,23 +21,33 @@ const Home = () => {
   }, [])
 
   return (
-    <div className="home-wrapper">
-      <h1>{result}</h1>
-      <p>
-        You’re a CS incident response expert dealing with an ongoing attack, the
-        hacker is giving you clues how he got access to the system. Your job is
-        to solve the hacker's puzzle to stop the attack.
-      </p>
-      <button>
-        <Link to="/level/lose">>START</Link>
-      </button>
-      <span>Time Limit: 10 minutes</span>
+    <div>
+      <div className="mobile">
+        Not compatible with mobile phones. Coming soon{" "}
+        <span role="img" aria-label="smile">
+          😃
+        </span>
+      </div>
+      <div className="home-wrapper">
+        <h1>{result}</h1>
+        <p>
+          You’re a CS incident response expert dealing with an ongoing attack,
+          the hacker is giving you clues how he got access to the system. Your
+          job is to solve the hacker's puzzle to stop the attack.
+        </p>
+        <button>
+          <Link to="/level/6">>START</Link>
+        </button>
+        <span>Time Limit: 10 minutes</span>
 
-      <span className="footer">
-        To promote cyberawareness, see{" "}
-        <a href="https://github.com/jordanliu/escape-the-hacker">source code</a>
-        .
-      </span>
+        <span className="footer">
+          To promote cyberawareness, see{" "}
+          <a href="https://github.com/jordanliu/escape-the-hacker">
+            source code
+          </a>
+          .
+        </span>
+      </div>
     </div>
   )
 }
