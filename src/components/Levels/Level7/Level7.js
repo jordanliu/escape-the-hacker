@@ -6,7 +6,10 @@ const Level7 = () => {
   const history = useHistory()
   const [answer, setAnswer] = useState("")
 
-  if (answer.toLowerCase() === "virtual private network") {
+  if (
+    answer.toLowerCase() === "virtual private network" ||
+    answer.toLowerCase() === "vpn"
+  ) {
     history.push("/level/8")
   }
   return (
