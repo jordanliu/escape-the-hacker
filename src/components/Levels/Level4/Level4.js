@@ -175,7 +175,7 @@ const Level4 = () => {
                         </span>
                       </div>
                       <div className="message sent">
-                        I'm reporting you for [redacted].
+                        I'm reporting you for s_____ ___________.
                         <span className="metadata">
                           <span className="time">10:19</span>
                           <span className="tick">

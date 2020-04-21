@@ -134,10 +134,10 @@ const Level2 = () => {
                   <input type="checkbox" />
                   <div className="preview">
                     <h3>
-                      Twitter <small>Jul 14</small>
+                      HintMaster <small>Jul 14</small>
                     </h3>
                     <p>
-                      <strong>Weekly Digest - </strong>Hi Jon, see your...
+                      <strong>Look for - </strong>report...
                     </p>
                   </div>
                 </li>

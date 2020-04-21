@@ -22,7 +22,7 @@ const Level1 = () => {
         <input
           id="password"
           type="password"
-          placeholder="Enter password"
+          placeholder="Enter a STRONG password"
           autoComplete="off"
           onChange={(e) => setPassword(e.target.value)}
         />
