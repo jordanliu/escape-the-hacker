@@ -29,7 +29,7 @@ const Home = () => {
         to solve the hacker's puzzle to stop the attack.
       </p>
       <button>
-        <Link to="/level/1">>START</Link>
+        <Link to="/level/8">>START</Link>
       </button>
       <span>Time Limit: 10 minutes</span>
 

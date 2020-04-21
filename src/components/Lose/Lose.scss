@@ -1,0 +1,20 @@
+.centretext {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: initial;
+	margin-top: 12rem;
+	flex-direction: column;
+}
+h1 {
+    height: 46px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    font-size: 3.5em;
+  }
+  p {
+    margin-top: 0;
+    text-align: center;
+    width: 35%;
+    margin-bottom: 15px;
+  }
